@@ -1,0 +1,20 @@
+{
+  "name": "storenet",
+  "version": "0.1.0",
+  "private": true,
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "node1": "cd storage-node && PORT=5001 NODE_NAME=node1 node server.js",
+   "node2": "cd storage-node && PORT=5001 NODE_NAME=node2 node server.js"
+},
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.3",
+    "next": "14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
