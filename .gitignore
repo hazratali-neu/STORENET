@@ -1,0 +1,5 @@
+node_modules
+.next
+.env.local
+storage-node/data/*
+!storage-node/data/.gitkeep
